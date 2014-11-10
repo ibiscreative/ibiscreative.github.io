@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'Geo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Geo'), local('Geo-Regular'), url(https://themes.googleusercontent.com/static/fonts/geo/v5/UI8QzXA7yD17NFtVExV-lg.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Wire One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Wire One'), local('WireOne'), url(https://themes.googleusercontent.com/static/fonts/wireone/v3/fas9dl2wmMkt5rCu-aBez3YhjbSpvc47ee6xR_80Hnw.woff) format('woff');
+}
+
+body {
+	background-image:url('./resources/background.png');
+	background-repeat:repeat-both;
+}
+
+h1 {
+	color:#00108A;
+	font-size:64px;
+	font-family: 'Geo', Helvetica normal, sans-serif;
+	font-stretch:extra-expanded;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	color:blue;
+	font-size:48px;
+	font-family:'Wire One', Arial, sans-serif;
+	display: inline;
+}
+
+a:link {
+	color:#000000;
+	text-decoration:none;
+}    /* unvisited link */
+
+a:visited {
+	color:#000000;
+	text-decoration:none;
+} /* visited link */
+
+a:hover {
+	color:#FF00FF;
+	text-decoration:none;
+}   /* mouse over link */
+
+a:active {
+	color:#0000FF;
+	text-decoration:none;
+}  /* selected link */
+
+b:link {
+	color:#000000;
+	text-decoration:none;
+}    /* unvisited link */
+
+b:visited {
+	color:#000000;
+	text-decoration:none;
+} /* visited link */
+
+b:hover {
+	color:#FF00FF;
+	text-decoration:none;
+}   /* mouse over link */
+
+b:active {
+	color:#0000FF;
+	text-decoration:none;
+}  /* selected link */
+
+.center {
+	text-align: center;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   font-size: 20px;
+   width:100%;
+   height:25px;   /* Height of the footer */
+   background:#6cf;
+}
+
+#current {
+	color:#666666;
+	font-size: 75px;
+	text-decoration:none;
+}
+
+#title {
+	color:#00108A;
+	font-size:64px;
+	font-family: 'Geo', Helvetica normal, sans-serif;
+	font-stretch:extra-expanded;
+}
+
