@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +14,7 @@
 		<li><a href="http://toocleverwhatever.tumblr.com/">things</a></li> <br>
 		<li><a href="https://soundcloud.com/itaybarylka">sounds</a></li> <br>
 		<li><a href="https://twitter.com/itaybarylka">words</a></li>
-		<li><a href="\about.html">about</a></li>
+		<li><a href="/about.html">about</a></li>
 	</ul>
 	<br>
 	<br>
