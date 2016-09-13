@@ -1,0 +1,22 @@
+body
+{
+    background-color:#CC9A14;
+    font-family: Times New Roman;
+    padding-top: 2.5%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+h1
+{
+    color:#E2C2E8;
+    font-style:italic;
+    font-size: 500%;
+}
+
+h2
+{
+    text-align: center;
+    color: #00FFAF;
+    font-size: 200%
+}
