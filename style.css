@@ -24,9 +24,28 @@ h2
     font-size: 35pt
 }
 
-
 footer
 {
     text-align: center;
     bottom: 0;
+}
+
+/* unvisited link */
+a:link {
+    color: #00FFAF;
+}
+
+/* visited link */
+a:visited {
+    color: #E2C2E8;
+}
+
+/* mouse over link */
+a:hover {
+    color: #E2C2E8;
+}
+
+/* selected link */
+a:active {
+    color: #CC9A14;
 }
