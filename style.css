@@ -1,6 +1,7 @@
 body
 {
-    background-color:#CC9A14;
+ #   background-color:#CC9A14;
+    background-image:linear-gradient(blue, orange);
     font-family: Times New Roman;
     padding-top: 2.5%;
     padding-left: 15%;
@@ -11,7 +12,8 @@ body
 
 h1
 {
-    color:#E2C2E8;
+   # color:#E2C2E8;
+    color: darkviolet;
     text-align: center;
     font-style:italic;
     font-size: 60pt;
@@ -20,7 +22,8 @@ h1
 h2
 {
     text-align: center;
-    color: #00FFAF;
+   # color: #00FFAF;
+    color: purple;
     font-size: 35pt
 }
 
@@ -32,20 +35,25 @@ footer
 
 /* unvisited link */
 a:link {
-    color: #00FFAF;
+#    color: #00FFAF;
+    color: blue;
 }
 
 /* visited link */
 a:visited {
-    color: #E2C2E8;
+  #  color: #E2C2E8;
+    color: darkblue;
 }
 
 /* mouse over link */
 a:hover {
-    color: #E2C2E8;
+ #   color: #E2C2E8;
+    color: purple;
 }
 
 /* selected link */
 a:active {
-    color: #CC9A14;
+  #  color: #CC9A14;
+    
+    color: black;
 }
